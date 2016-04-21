@@ -2,7 +2,8 @@
 仙境传说职业代码计算器（以rAthena的职业代码为标准，支持杜兰族召唤师职业）
 
 [![Build Status](https://travis-ci.org/CairoLee/JobCodeCalculator.svg?branch=master)](https://travis-ci.org/CairoLee/JobCodeCalculator)
-[![Language](https://img.shields.io/badge/language-C%23-blue.svg)]
+![Language](https://img.shields.io/badge/language-C%23-blue.svg)
+![.Net Framework](https://img.shields.io/badge/.Net%20Framework-4.0-orange.svg)
 
 ## 更新日志
 
