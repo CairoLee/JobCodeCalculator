@@ -2,3 +2,5 @@
 /obj
 /bin/*.vshost.exe
 /bin/*.vshost.exe.manifest
+/.vs/JobCodeCalculator-10/v14/*.suo
+/csproj-10/obj
