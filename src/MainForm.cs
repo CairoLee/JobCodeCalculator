@@ -181,24 +181,7 @@ namespace JobCodeCalculator
 
         private void btnWhyNoHaveExtendJob_Click(object sender, EventArgs e)
         {
-            try
-            {
-                System.Diagnostics.Process.Start("http://blog.rathena.cn/2015/04/job_code_calculator/#whynotextend");
-            }
-            catch
-            {
-            }
-        }
-
-        private void btnGithub_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                System.Diagnostics.Process.Start("https://github.com/CairoLee/JobCodeCalculator");
-            }
-            catch
-            {
-            }
+            MessageBox.Show(this, "在 rAthena 中，职业代码只是用来控制职业系，如果你想限制一个物品只有进阶二转（比如超魔导师）才能使用的话，您应该配合 Class 字段来做限制。", "信息", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
